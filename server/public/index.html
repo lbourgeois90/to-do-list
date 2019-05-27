@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Patrick+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="sweetalert.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <section>
+        <div>
+            <header>
+                <h1>To-Do List</h1>
+            </header>
+        </div>
+    </section>
+    <section>
+        <div id = "formAndTable">
+            <form>
+                <input type="text" id="taskInput" placeholder="Write Task Here!"/>
+                <button id="addTaskButton">Create Task!</button>
+            </form>
+   
+      
+            <div id="cssTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Task Status</th>
+                        <th id="thspace">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody id="toDoTable">
+                    <!-- Enter Tasks Here -->
+                </tbody>
+                
+            </table>
+         </div>
+    </div>
+    </section>
+    
+</body>
+</html>

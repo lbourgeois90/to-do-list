@@ -1,0 +1,139 @@
+header{
+    margin-top: 25px;
+}
+
+header >h1{
+    text-align: center;
+    line-height: 100px;
+    margin: 0px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size:75px;
+    color: #eb2c8c;
+}
+
+
+#taskInput{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #57961c;
+    height: 50px;
+    padding-left: 15px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 36px;
+    margin-bottom:60px;
+    margin-top:100px;
+    
+}
+
+#addTaskButton {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 36px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 50px;
+    padding: 0px;
+    width: 200px;
+    margin-left: 25px;
+    line-height:36px;
+    color:#2c2ceb;
+}
+
+#deleteButton{
+    border: 0px;
+    color:#2c2ceb;
+    box-sizing:border-box;
+    width:180px;
+    height:50px;
+    line-height:40px;
+}
+
+
+#formAndTable{
+    font-family: 'Patrick Hand', cursive;
+    margin: 0 4% 0 22%;
+}
+
+table{
+    width: 100%;
+}
+
+
+td{
+    font-size: 35px;
+    /* border-bottom: 2px #eb5c2c solid; */
+}
+
+  tr{
+      line-height: 60px;
+  }
+
+
+  th {
+    background-color: white;
+    color: #eb5c2c;
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+  }
+
+#thspace{
+    text-decoration:none;
+}
+
+  .label-big-check {
+	position: relative;
+	display: block;
+	padding: 15px 0px 15px 35px;
+	margin: 0;
+    cursor: pointer;
+    
+}
+.label-big-check input {
+    display: none;
+}
+.label-big-check .check-title {
+	font-size: 40px;
+	font-weight: 700;
+    cursor: pointer;
+}
+.label-big-check input[type="checkbox"] + .check-title:before {
+	position: absolute;
+	top: 26px;
+    left: 0;
+    width: 30px;
+	font-family: FontAwesome;
+        content: "\f096";
+        font-size: 40px;
+        line-height: 1;
+        color: #57961c;
+}
+.label-big-check input[type="checkbox"]:checked + .check-title:before {
+    content: "\f14a";
+    color: #57961c;
+}
+
+.swal-overlay {
+    background-color: rgba(63, 165, 43, 0.45);
+  }
+
+  .swal-modal {
+    background-color: white;
+    border: 3px solid #eb2c8c;
+  }
+  .swal-title {
+    margin: 0px;
+    font-size: 28px;
+    color:#2c2ceb;
+    margin-bottom: 28px;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #eb5c2c;
+    font-size: 18px;
+    border: 1px solid #eb5c2c;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+  }
