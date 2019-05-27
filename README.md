@@ -61,6 +61,3 @@ Deployed via Heroku
 ## Authors
 
 Lili Bourgeois
-# to-do-list
-# to-do-list
-# to-do-list
